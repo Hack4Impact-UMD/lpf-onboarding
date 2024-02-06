@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Resources for Engineers
 
+Git: https://learngitbranching.js.org/
+
 PR Guide: https://www.notion.so/h4i/PR-Guide-Template-9b6637f44fdd40b2a10da1cf662b9ac8
 
 Best Practices: https://docs.google.com/document/d/1v34KkY_KlUvNWxgkDTRI1_HpF_SlYu3U9dl_2sOd79Q/edit 
@@ -16,6 +18,12 @@ React: https://legacy.reactjs.org/docs/getting-started.html
 React Exercise: Create a simple counter
 Figma for reference: https://www.figma.com/file/RWKmz0zsQZZ76VO2FMwCVH/Sample-Intro-Exercise?type=design&node-id=0-1&mode=design&t=U152yHkxaon4DBmO-0 
 
+
+Instructions for Engineers:
+1. Create a branch off of main and name it after yourself
+2. Create a simple Next.js counter app using the Figma linked above
+3. Practice merging main into your branch
+4. Create a pull request to merge your branch back into main (we will let you know if the PR is good, but will not accept it, so that main has a blank project)
 
 
 First, run the development server:
