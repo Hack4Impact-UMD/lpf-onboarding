@@ -8,6 +8,12 @@ Best Practices: https://docs.google.com/document/d/1v34KkY_KlUvNWxgkDTRI1_HpF_Sl
 Next.js: https://nextjs.org/docs
 React: https://legacy.reactjs.org/docs/getting-started.html 
 
+
+React Exercise: Create a simple counter
+Figma for reference: https://www.figma.com/file/RWKmz0zsQZZ76VO2FMwCVH/Sample-Intro-Exercise?type=design&node-id=0-1&mode=design&t=U152yHkxaon4DBmO-0 
+
+
+
 First, run the development server:
 
 ```bash
