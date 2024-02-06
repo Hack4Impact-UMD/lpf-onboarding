@@ -4,8 +4,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Resources for Engineers
 PR Guide: https://www.notion.so/h4i/PR-Guide-Template-9b6637f44fdd40b2a10da1cf662b9ac8
+
 Best Practices: https://docs.google.com/document/d/1v34KkY_KlUvNWxgkDTRI1_HpF_SlYu3U9dl_2sOd79Q/edit 
+
 Next.js: https://nextjs.org/docs
+
 React: https://legacy.reactjs.org/docs/getting-started.html 
 
 
