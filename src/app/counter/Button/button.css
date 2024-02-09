@@ -1,0 +1,11 @@
+.dec-button {
+  width: 50px;
+  height: 80px;
+  background-color: red;
+}
+
+.inc-button {
+  width: 50px;
+  height: 80px;
+  background-color: greenyellow;
+}

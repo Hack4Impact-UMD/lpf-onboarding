@@ -1,0 +1,29 @@
+.display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 500px;
+  width: 600px;
+}
+
+.inner-display {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.count {
+  color: black;
+  font-size: 25px;
+}
+
+.counter-text {
+  color: pink;
+  font-size: 30px;
+}
