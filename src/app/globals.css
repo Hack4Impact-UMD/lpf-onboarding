@@ -1,33 +1,66 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+p {
+  font-family: 'Markazi Text';
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.page {
+  text-align: center;
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.desc {
+  padding-bottom: 88px;
+}
+
+.main {
+  display: flex;  
+  align-items: center;
+  width: 247px;
+  height: 337px;
+  background: #FABC3C;
+  justify-content: center;
+}
+
+.main button {
+  width: 19px;
+  height: 24px;
+  border: none;
+}
+
+.increment button {
+  background: #0AFF05;
+}
+
+.decrement button {
+  background: #FF0505;
+}
+
+.middle {
+  width: 160px;
+  height: 110px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: flex;  
+  flex-direction: column;
+  margin: 15px;
+}
+
+.counter {
+  color: #F55536;  
+}
+
+.count {
+  color: #000000;
+  padding-top: 12.5%;
 }
