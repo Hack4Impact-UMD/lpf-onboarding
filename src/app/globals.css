@@ -1,33 +1,61 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+.container {
+  text-align: center;
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+}
+p {
+  font-family: 'Calibri';
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+}
+.description-top {
+  padding-top: 80px;
+}
+.description-bottom {
+  padding-bottom: 30px;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.counter-app {
+  background: rgb(251, 184, 59);
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  width: 250px;
+  height: 350px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.middle {
+  background: white;
+  width: 160px;
+  height: 110px;
+  margin: 12.5px;
+  border-radius: 5px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.counter-text {
+  color: orangered;  
+}
+
+.counter-value {
+  color: black;
+  padding-top: 25px;
+}
+.counter-app button {
+  width: 20px;
+  height: 25px;
+  border: none;
+}
+
+.increment button {
+  background: rgb(2, 255, 2);
+}
+
+.decrement button {
+  background: red;
 }
