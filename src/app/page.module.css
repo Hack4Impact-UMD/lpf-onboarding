@@ -1,0 +1,44 @@
+.container {
+    background-color: orange;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerContainer {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 30px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.title {
+    color: orangered;
+    margin-bottom: 8px;
+}
+
+.text {
+    color: black;
+}
+
+.leftButton {
+    background-color: red;
+    color: red;
+    width: 30px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.rightButton {
+    background-color: green;
+    color: green;
+    width: 30px;
+    margin: 10px;
+    vertical-align: middle;
+}
