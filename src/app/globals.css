@@ -2,7 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.game-container {
+  display: flex;
+  height: 350px;
+  width: 250px;
+  background-color: #fcba03;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button1 {
+  background: red;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+p {
+  color: orange;
+}
+
+.button2 {
+  background-color: green;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +75,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
