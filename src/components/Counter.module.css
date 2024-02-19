@@ -46,7 +46,7 @@
 .count {
     flex-basis: 225px;
     font-size: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 30px 5px 0px 5px;
 }
