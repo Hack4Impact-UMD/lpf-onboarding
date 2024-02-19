@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+.main {
+    background-color: #10fc04;
+    width: 75vh;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    background-color: #ffbc3c;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.decrement {
+    width: 8%;
+    height: 7%;
+    background-color: red;
+}
+
+.countDisplay {
+    width: 70%;
+    height: 35%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.displayHeader {
+    color: #f55536;
+    font-weight: 900;
+    font-family: 'Markazi Text';
+    font-size: 3.5em;
+}
+
+.counter {
+    color: black;
+    font-weight:900;
+    font-family: 'Markazi Text';
+    font-size: 3.5em;
+    font-weight: 900;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.increment {
+    width: 8%;
+    height: 7%;
+    background-color: #10fc04;
+}
