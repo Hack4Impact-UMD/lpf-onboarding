@@ -1,0 +1,52 @@
+.container {
+    background-color: #ffa500;
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    flex-basis: 60px;
+    height: 60px;
+    margin: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.decrement {
+    background-color: #ff0000;
+}
+
+.increment {
+    background-color: #00ff00;
+}
+
+.display {
+    height: 300px;
+    flex-basis: 350px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    flex-basis: 75px;
+    font-size: 40px;
+    color: #ff0000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+}
+
+.count {
+    flex-basis: 225px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 30px 5px 0px 5px;
+}
