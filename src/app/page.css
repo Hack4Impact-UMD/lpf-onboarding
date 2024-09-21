@@ -1,0 +1,48 @@
+.background {
+    background-color: orange;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Center {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+  }
+  
+  .center-text {
+    font-size: 2.5rem;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .redButton {
+    background-color: red;
+    position: relative;
+    height: 70px;
+    width: 50px;
+    transform: translateX(-200%);
+  }
+  
+  .greenButton {
+    background-color: rgb(25, 200, 25);
+    position: relative;
+    height: 70px;
+    width: 50px;
+    transform: translateX(200%);
+  }
+  
