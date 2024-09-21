@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.screen {
+  background-color: #FABC3C;
+}
