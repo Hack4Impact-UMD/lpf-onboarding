@@ -1,0 +1,70 @@
+.body-section {
+  background-color: white;
+
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-section {
+  background-color: orange;
+  border: 1px black solid;
+
+  display: flex;
+  align-items: center;
+
+  padding: 50px;
+  margin: 100px;
+}
+
+.counter-section {
+  padding: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  height: 50vh;
+  width: 40vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: white;
+  border-radius: 25px;
+}
+
+.counter-title {
+  margin: 20px;
+  color: red;
+  font-size: 28px;
+}
+
+.counter {
+  margin: 20px;
+  color: black;
+  font-size: 42px;
+}
+
+.decrement-section, .increment-section {
+  height: 10vh;
+  width: 10vh;
+
+  border-radius: 20px;
+}
+
+.decrement-section > button {
+  background-color: red;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 20px;
+}
+
+.increment-section > button {
+  background-color: green;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 20px;
+}
