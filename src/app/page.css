@@ -1,0 +1,49 @@
+.main{
+    align-items: center;
+    display: flex;
+    background-color: white;
+    height: 100vh;
+}
+
+.yellow{
+    position: relative;
+    height:45rem;
+    width: 40rem;
+    background-color: orange;
+    margin-left: 25rem;
+}
+
+.decrementbutton > button{
+    margin-top: 20rem;
+    height:5rem;
+    width: 3rem;
+    background-color: red;
+    margin-left: 4rem;
+}
+
+.countermiddle{
+    width: 20rem;
+    height:20rem;
+    background-color: antiquewhite;
+    margin-top: -12.5rem;
+    margin-left: 11rem;
+    text-align: center;
+    font-size: 2rem;
+    color:red;
+    border-radius: 20px;
+}
+
+.incrementbutton > button{
+    position: absolute;
+    height:5rem;
+    width: 3rem;
+    background-color: green;
+    margin-left: 33rem;
+    top:20rem
+}
+
+.counterval{
+    margin-top: 7rem;
+    font-size: 40px;
+    color: black;
+}
